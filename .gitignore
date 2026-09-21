@@ -1,0 +1,18 @@
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Documentos cargados por usuarios
+uploads/expedientes/*
+uploads/anexos/*
+uploads/proveidos/*
+
+# Mantener las carpetas de uploads
+!uploads/.gitkeep
+
+# Configuración local
+# config/database.php
